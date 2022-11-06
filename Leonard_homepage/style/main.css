@@ -1,0 +1,264 @@
+
+html {background-color: rgb(255, 255, 255);}
+
+@font-face {
+  font-family: 'PTserif';
+  src: url(fonts/PTSerif-Regular.ttf);
+}
+body {
+  background-color: rgb(255, 255, 255);
+  max-width: 1300px;
+  margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p {
+  color:  #464646;
+}
+
+h1 {
+  font-size: 2em;
+  color:  #464646;
+ 
+}
+
+h2 {
+  font-size: 1.7em;
+  color:  #464646;
+
+}
+
+a {
+  color: #2D78AD;
+  width: auto;
+}
+
+.but {
+
+  color:#ffffff;
+  margin-top: 40px;
+  font-size: xx-small;
+  border-radius: 15px;
+  padding-left: 150px;
+  text-align: center;
+   
+}
+
+.button {
+  color: #ffffff;
+  background-color: #2D78AD;
+  padding: 1px 20px;
+
+}
+
+#slider_button {
+  text-align: center;
+  padding: .15px 5px;
+  border-radius: 5%;
+
+}
+
+
+.jumbo {
+  max-width: 320px;
+  border-radius: 5%;
+  position:relative; right:35px; 
+}
+
+.slider {
+  padding-right: 45px;
+}
+
+.articles {
+  position:relative; left:350px; bottom:280px
+}
+
+.small_img {
+max-width: 85px;
+float: left;
+padding-right: 15px;
+}
+
+.round_img {
+  max-width: 170px;
+  border-radius: 80%;
+  text-align: center;
+  }
+
+.card {
+  border: .5px solid #d4e8f7;
+  border-radius: 5%;
+  padding-top: 15px;
+}
+
+
+.button:hover {
+  border-color: rgb(0, 49, 80, 1);}
+
+.input  {
+
+    position:relative; right: -2px; top:-1px;
+    width:150px;
+  }
+
+.logo_img {
+  position: relative; 
+  margin-bottom: 25px;
+  max-width: 340px;
+}
+
+
+
+article {
+  width: auto;
+  text-align: left;
+
+}
+
+.action {
+  max-width: 1000px;
+  position: relative;
+  left: 175px; bottom: 100px;
+}
+
+
+.action h2 {
+
+  text-align: center;
+
+}
+
+.action p {
+
+  text-align: center;
+  width: auto;
+
+}
+
+
+.foot {
+  font-size: 1em;
+  font-weight: normal;
+  text-align: center;
+  max-width: 1000px;
+  position: relative;
+  left: 175px;
+  top: 55px; 
+
+}
+
+.line {
+
+  border-left: .5px solid #bbb;
+  border-right: .5px solid #bbb;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 8px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+#donate_button {
+  text-align: center;
+  border-radius: 5%;
+  color: rgb(255, 255, 255);
+  background-color: #25b309;
+
+}
+
+
+@media (max-width: 580px) {
+
+  body {
+    background-color: rgb(255, 255, 255);
+    max-width: 400px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+
+  .but {
+
+    color:#ffffff;
+    font-size: .5px;
+    border-radius: 15px;
+    text-align: center;
+    position: relative; right: 100px; bottom: 50px;
+    width:400px
+     
+  }
+
+  .input  {
+    width:200px;
+  }
+
+  .jumbo {
+    max-width: 320px;
+    border-radius: 5%;
+    position:relative; left:10px; 
+  }
+  
+  .slider {
+    padding-right: 45px;
+    position:relative;
+    left: 20px;top: 10px;
+  }
+  
+  .articles {
+    position:relative; left:10px; top:50px;
+    max-width: 300px;
+
+  }
+
+  .action {
+    max-width: 1000px;
+    position: relative;
+    left: 10px; top: 100px;
+  }
+
+  .foot {
+    font-size: 1em;
+    font-weight: normal;
+    text-align: center;
+    max-width: 1000px;
+    position: relative;
+    left: 10px;
+    top: 150px; 
+  
+  }
+
+}
